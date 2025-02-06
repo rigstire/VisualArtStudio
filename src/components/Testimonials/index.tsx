@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Edward S.",
     designation: "",
     content:
-      "The team at Coachella Solar Services was fantastic. They cleaned my gutters and performed soft washing on my home’s exterior, making it look brand new. I also had bird-proofing done around my solar panels to prevent any damage, and the results are great. Professional, quick, and affordable service!",
+      "The team at Coachella Solar Service was fantastic. They cleaned my gutters and performed soft washing on my home’s exterior, making it look brand new. I also had bird-proofing done around my solar panels to prevent any damage, and the results are great. Professional, quick, and affordable service!",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },

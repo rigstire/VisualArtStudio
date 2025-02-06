@@ -30,7 +30,7 @@ const Hero = () => {
               font-serif
             "
           >
-            Coachella Solar Services
+            Coachella Solar Service
           </h1>
           <p
             className="

@@ -37,7 +37,7 @@ const ContactPage = () => {
       <AppBar position="static" sx={{ bgcolor: "#112D4E" }}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 700 }}>
-            Coachella Solar Services
+            Coachella Solar Service
           </Typography>
         </Toolbar>
       </AppBar>

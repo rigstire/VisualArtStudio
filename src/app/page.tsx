@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Coachella Solar Services",
+  title: "Coachella Solar Service",
   description: "Best ",
   // other metadata
 };

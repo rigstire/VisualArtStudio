@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Top Solar Cleaning Experts"
-                paragraph="Coachella Solar Services provides professional solar panel cleaning and maintenance to ensure optimal performance and efficiency. Our expert solutions help extend the lifespan of your solar system, keeping it running at its best year-round"
+                paragraph="Coachella Solar Service provides professional solar panel cleaning and maintenance to ensure optimal performance and efficiency. Our expert solutions help extend the lifespan of your solar system, keeping it running at its best year-round"
                 mb="44px"
               />
 
