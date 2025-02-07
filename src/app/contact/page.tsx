@@ -67,7 +67,7 @@ const ContactPage = () => {
                 Email:
               </Typography>
               <Typography variant="body1" sx={{ opacity: 0.8 }}>
-                solarmaitenancepro27@gmail.com
+                solarmaintenancepro27@gmail.com
               </Typography>
             </Box>
 
