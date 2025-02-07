@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable react/no-unescaped-entities */
 
 import { useState } from "react";
 import { AppBar, Toolbar, Typography, TextField, MenuItem, Button, Box, Container, Paper, Grid } from "@mui/material";
@@ -51,9 +52,10 @@ const ContactPage = () => {
       Contact Us
     </Typography>
     <Typography variant="h6" sx={{ opacity: 0.8, mb: 4, lineHeight: 1.5 }}>
-      Get in touch with our experts for premium solar and exterior cleaning services. We’re committed to delivering
-      high-quality service with customer satisfaction at the forefront.
-    </Typography>
+  Get in touch with our experts for premium solar and exterior cleaning services. We&apos;re committed to delivering
+  high-quality service with customer satisfaction at the forefront.
+</Typography>
+
 
             {/* Contact Info */}
             <Box sx={{ mb: 4 }}>
