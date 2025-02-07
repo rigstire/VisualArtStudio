@@ -126,7 +126,7 @@ const FactsPage = () => {
           <Grid item xs={12} md={6}>
             <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
               <Image 
-                src="/images/gutterwash.jpeg" 
+                src="/images/softwash.jpeg" 
                 alt="Gutter Cleaning"
                 layout="intrinsic" 
                 width={800} 
