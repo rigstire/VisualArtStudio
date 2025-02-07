@@ -41,7 +41,7 @@ const FactsPage = () => {
           The Importance of Cleaning Services
         </Typography>
         <Typography variant="h6" sx={{ maxWidth: 750, opacity: 0.9 }}>
-          {`Discover how proper maintenance and cleaning services can improve the longevity and efficiency of your home and property.`}
+          {"Discover how proper maintenance and cleaning services can improve the longevity and efficiency of your home and property."}
         </Typography>
       </Box>
 
@@ -65,10 +65,7 @@ const FactsPage = () => {
                   The Power Difference: Dirty vs. Clean Solar Panels
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {`On August 3, 2023, RPS Solar Pumps conducted a real-world experiment to assess the impact of cleaning solar panels on energy efficiency.
-The test revealed that dirty panels produced just 145 Watts of energy. After cleaning, the output increased to 183 Watts, showing a
-remarkable 26% increase in energy efficiency! This experiment underscores the importance of cleaning your panels to boost solar energy
-production. Watch the full comparison in the video below.`}
+                  {"On August 3, 2023, RPS Solar Pumps conducted a real-world experiment to assess the impact of cleaning solar panels on energy efficiency. The test revealed that dirty panels produced just 145 Watts of energy. After cleaning, the output increased to 183 Watts, showing a remarkable 26% increase in energy efficiency! This experiment underscores the importance of cleaning your panels to boost solar energy production. Watch the full comparison in the video below."}
                 </Typography>
               </CardContent>
             </Card>
@@ -91,9 +88,7 @@ production. Watch the full comparison in the video below.`}
                   The Need for Regular Solar Panel Cleaning
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {`Solar panels are constantly exposed to environmental elements like dust, pollen, bird droppings, algae, and pollutants—all of which diminish their efficiency over time.
-Regular cleaning not only restores optimum performance but also prevents the buildup of corrosive deposits that can damage panel surfaces.
-Routine maintenance helps ensure maximum energy output, extends the life of your solar panels, and allows early detection of any potential issues.`}
+                  {"Solar panels are constantly exposed to environmental elements like dust, pollen, bird droppings, algae, and pollutants—all of which diminish their efficiency over time. Regular cleaning not only restores optimum performance but also prevents the buildup of corrosive deposits that can damage panel surfaces. Routine maintenance helps ensure maximum energy output, extends the life of your solar panels, and allows early detection of any potential issues."}
                 </Typography>
               </CardContent>
             </Card>
@@ -116,8 +111,7 @@ Routine maintenance helps ensure maximum energy output, extends the life of your
                   The Importance of Roof Cleaning
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {`Roofs accumulate moss, algae, and dirt, which can lead to decay and leaks over time. Regular cleaning not only protects the structural integrity of your roof by removing harmful buildup, but it also enhances your home&#39;s overall curb appeal.
-Routine cleaning can reveal early signs of damage, enabling timely repairs that extend your roof&#39;s lifespan and help avoid costly renovations.`}
+                  {"Roofs accumulate moss, algae, and dirt, which can lead to decay and leaks over time. Regular cleaning not only protects the structural integrity of your roof by removing harmful buildup, but it also enhances your home&#39;s overall curb appeal. Routine cleaning can reveal early signs of damage, enabling timely repairs that extend your roof&#39;s lifespan and help avoid costly renovations."}
                 </Typography>
               </CardContent>
             </Card>
@@ -140,9 +134,7 @@ Routine cleaning can reveal early signs of damage, enabling timely repairs that 
                   Why Gutter Cleaning is Essential
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {`Clogged gutters can lead to water damage, foundation issues, and even pest infestations. Keeping your gutters clean ensures proper water drainage,
-reduces the risk of mold and structural damage, and prevents debris build-up that can attract unwanted critters.
-Regular maintenance not only protects your home but also preserves your landscaping from water overflow and erosion.`}
+                  {"Clogged gutters can lead to water damage, foundation issues, and even pest infestations. Keeping your gutters clean ensures proper water drainage, reduces the risk of mold and structural damage, and prevents debris build-up that can attract unwanted critters. Regular maintenance not only protects your home but also preserves your landscaping from water overflow and erosion."}
                 </Typography>
               </CardContent>
             </Card>
@@ -165,9 +157,7 @@ Regular maintenance not only protects your home but also preserves your landscap
                   Revitalize Your Property with Pressure Washing
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {`Our pressure washing service is designed to remove years of accumulated dirt, grime, mold, and algae from exterior surfaces.
-Beyond dramatically enhancing curb appeal, pressure washing protects surfaces from further deterioration by eliminating hazardous contaminants and preventing slip hazards.
-This service is an investment in both the aesthetics and long-term maintenance of your property.`}
+                  {"Our pressure washing service is designed to remove years of accumulated dirt, grime, mold, and algae from exterior surfaces. Beyond dramatically enhancing curb appeal, pressure washing protects surfaces from further deterioration by eliminating hazardous contaminants and preventing slip hazards. This service is an investment in both the aesthetics and long-term maintenance of your property."}
                 </Typography>
               </CardContent>
             </Card>
@@ -190,9 +180,7 @@ This service is an investment in both the aesthetics and long-term maintenance o
                   Effective Bird Proofing for a Safer Home
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {`Effective bird proofing not only stops birds from nesting and leaving unsightly droppings, but it also protects your property from structural damage and corrosion.
-Our humane, environmentally friendly solutions deter birds without harm, reducing maintenance costs and ensuring a cleaner, healthier living environment.
-This proactive measure helps safeguard your home&#39;s exterior and enhances its longevity.`}
+                  {"Effective bird proofing not only stops birds from nesting and leaving unsightly droppings, but it also protects your property from structural damage and corrosion. Our humane, environmentally friendly solutions deter birds without harm, reducing maintenance costs and ensuring a cleaner, healthier living environment. This proactive measure helps safeguard your home&#39;s exterior and enhances its longevity."}
                 </Typography>
               </CardContent>
             </Card>
@@ -203,10 +191,10 @@ This proactive measure helps safeguard your home&#39;s exterior and enhances its
       {/* Call to Action */}
       <Box sx={{ py: 8, textAlign: "center", bgcolor: "#153e75", color: "#FFD700", mt: 8 }}>
         <Typography variant="h5" fontWeight={600}>
-          {`Maximize Your Home&#39;s Cleanliness & Longevity`}
+          {"Maximize Your Home&#39;s Cleanliness & Longevity"}
         </Typography>
         <Typography variant="h6" sx={{ mt: 1, opacity: 0.9 }}>
-          {`Protect your property from damage and enhance its appearance with our expert cleaning services. Contact us today!`}
+          {"Protect your property from damage and enhance its appearance with our expert cleaning services. Contact us today!"}
         </Typography>
         <Button
           variant="contained"
