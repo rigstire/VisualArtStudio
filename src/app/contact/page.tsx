@@ -111,7 +111,7 @@ const FactsPage = () => {
                   The Importance of Roof Cleaning
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {"Roofs accumulate moss, algae, and dirt, which can lead to decay and leaks over time. Regular cleaning not only protects the structural integrity of your roof by removing harmful buildup, but it also enhances your home&#39;s overall curb appeal. Routine cleaning can reveal early signs of damage, enabling timely repairs that extend your roof&#39;s lifespan and help avoid costly renovations."}
+                  {"Roofs accumulate moss, algae, and dirt, which can lead to decay and leaks over time. Regular cleaning not only protects the structural integrity of your roof by removing harmful buildup, but it also enhances your home&apos;s overall curb appeal. Routine cleaning can reveal early signs of damage, enabling timely repairs that extend your roof&apos;s lifespan and help avoid costly renovations."}
                 </Typography>
               </CardContent>
             </Card>
@@ -180,7 +180,7 @@ const FactsPage = () => {
                   Effective Bird Proofing for a Safer Home
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  {"Effective bird proofing not only stops birds from nesting and leaving unsightly droppings, but it also protects your property from structural damage and corrosion. Our humane, environmentally friendly solutions deter birds without harm, reducing maintenance costs and ensuring a cleaner, healthier living environment. This proactive measure helps safeguard your home&#39;s exterior and enhances its longevity."}
+                  {"Effective bird proofing not only stops birds from nesting and leaving unsightly droppings, but it also protects your property from structural damage and corrosion. Our humane, environmentally friendly solutions deter birds without harm, reducing maintenance costs and ensuring a cleaner, healthier living environment. This proactive measure helps safeguard your home&apos;s exterior and enhances its longevity."}
                 </Typography>
               </CardContent>
             </Card>
@@ -191,7 +191,7 @@ const FactsPage = () => {
       {/* Call to Action */}
       <Box sx={{ py: 8, textAlign: "center", bgcolor: "#153e75", color: "#FFD700", mt: 8 }}>
         <Typography variant="h5" fontWeight={600}>
-          {"Maximize Your Home&#39;s Cleanliness & Longevity"}
+          {"Maximize Your Home&apos;s Cleanliness & Longevity"}
         </Typography>
         <Typography variant="h6" sx={{ mt: 1, opacity: 0.9 }}>
           {"Protect your property from damage and enhance its appearance with our expert cleaning services. Contact us today!"}
