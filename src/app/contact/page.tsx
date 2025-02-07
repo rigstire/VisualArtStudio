@@ -1,8 +1,18 @@
 "use client";
-/* eslint-disable react/no-unescaped-entities */
 
 import { useState } from "react";
-import { AppBar, Toolbar, Typography, TextField, MenuItem, Button, Box, Container, Paper, Grid } from "@mui/material";
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  TextField,
+  MenuItem,
+  Button,
+  Box,
+  Container,
+  Paper,
+  Grid,
+} from "@mui/material";
 import Image from "next/image";
 
 const services = [
@@ -23,7 +33,9 @@ const ContactPage = () => {
     message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -33,7 +45,15 @@ const ContactPage = () => {
   };
 
   return (
-    <Box sx={{ bgcolor: "#0A192F", minHeight: "100vh", color: "white", display: "flex", flexDirection: "column" }}>
+    <Box
+      sx={{
+        bgcolor: "#0A192F",
+        minHeight: "100vh",
+        color: "white",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       {/* Navigation Bar */}
       <AppBar position="static" sx={{ bgcolor: "#112D4E" }}>
         <Toolbar>
@@ -45,17 +65,22 @@ const ContactPage = () => {
 
       {/* Contact Section */}
       <Container maxWidth="lg" sx={{ mt: 6, pb: 8 }}>
-      <Grid container spacing={6} alignItems="center">
-  {/* Left Side: Text + Form */}
-  <Grid item xs={12} md={6}>
-    <Typography variant="h3" fontWeight={700} sx={{ mt: 6 }} gutterBottom>
-      Contact Us
-    </Typography>
-    <Typography variant="h6" sx={{ opacity: 0.8, mb: 4, lineHeight: 1.5 }}>
-  Get in touch with our experts for premium solar and exterior cleaning services. We&apos;re committed to delivering
-  high-quality service with customer satisfaction at the forefront.
-</Typography>
-
+        <Grid container spacing={6} alignItems="center">
+          {/* Left Side: Text + Form */}
+          <Grid item xs={12} md={6}>
+            <Typography
+              variant="h3"
+              fontWeight={700}
+              sx={{ mt: 6 }}
+              gutterBottom
+            >
+              Contact Us
+            </Typography>
+            <Typography variant="h6" sx={{ opacity: 0.8, mb: 4, lineHeight: 1.5 }}>
+              Get in touch with our experts for premium solar and exterior cleaning
+              services. We&apos;re committed to delivering high-quality service with
+              customer satisfaction at the forefront.
+            </Typography>
 
             {/* Contact Info */}
             <Box sx={{ mb: 4 }}>
@@ -74,14 +99,22 @@ const ContactPage = () => {
             </Box>
 
             {/* Form */}
-            <Paper elevation={10} sx={{ p: 4, borderRadius: 3, bgcolor: "#112D4E" }}>
+            <Paper
+              elevation={10}
+              sx={{ p: 4, borderRadius: 3, bgcolor: "#112D4E" }}
+            >
               <form onSubmit={handleSubmit}>
                 <TextField
                   fullWidth
                   name="name"
                   label="Full Name"
                   variant="outlined"
-                  sx={{ mb: 3, bgcolor: "white", borderRadius: 1, "& .MuiOutlinedInput-root": { p: 2 } }}
+                  sx={{
+                    mb: 3,
+                    bgcolor: "white",
+                    borderRadius: 1,
+                    "& .MuiOutlinedInput-root": { p: 2 },
+                  }}
                   onChange={handleChange}
                 />
                 <TextField
@@ -89,7 +122,12 @@ const ContactPage = () => {
                   name="email"
                   label="Email Address"
                   variant="outlined"
-                  sx={{ mb: 3, bgcolor: "white", borderRadius: 1, "& .MuiOutlinedInput-root": { p: 2 } }}
+                  sx={{
+                    mb: 3,
+                    bgcolor: "white",
+                    borderRadius: 1,
+                    "& .MuiOutlinedInput-root": { p: 2 },
+                  }}
                   onChange={handleChange}
                 />
                 <TextField
@@ -97,7 +135,12 @@ const ContactPage = () => {
                   name="phone"
                   label="Phone Number"
                   variant="outlined"
-                  sx={{ mb: 3, bgcolor: "white", borderRadius: 1, "& .MuiOutlinedInput-root": { p: 2 } }}
+                  sx={{
+                    mb: 3,
+                    bgcolor: "white",
+                    borderRadius: 1,
+                    "& .MuiOutlinedInput-root": { p: 2 },
+                  }}
                   onChange={handleChange}
                 />
                 <TextField
@@ -106,7 +149,12 @@ const ContactPage = () => {
                   name="service"
                   label="Select Service"
                   variant="outlined"
-                  sx={{ mb: 3, bgcolor: "white", borderRadius: 1, "& .MuiOutlinedInput-root": { p: 2 } }}
+                  sx={{
+                    mb: 3,
+                    bgcolor: "white",
+                    borderRadius: 1,
+                    "& .MuiOutlinedInput-root": { p: 2 },
+                  }}
                   onChange={handleChange}
                 >
                   {services.map((service, index) => (
@@ -122,7 +170,12 @@ const ContactPage = () => {
                   variant="outlined"
                   multiline
                   rows={4}
-                  sx={{ mb: 3, bgcolor: "white", borderRadius: 1, "& .MuiOutlinedInput-root": { p: 2 } }}
+                  sx={{
+                    mb: 3,
+                    bgcolor: "white",
+                    borderRadius: 1,
+                    "& .MuiOutlinedInput-root": { p: 2 },
+                  }}
                   onChange={handleChange}
                 />
                 <Button
@@ -147,7 +200,12 @@ const ContactPage = () => {
           </Grid>
 
           {/* Right Side: Image with Proper Sizing */}
-          <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "center" }}>
+          <Grid
+            item
+            xs={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 position: "relative",
