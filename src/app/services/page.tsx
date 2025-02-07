@@ -38,7 +38,7 @@ const services = [
     title: "Soft Washing Homes",
     description:
       "A gentle yet powerful cleaning solution for your home's exterior. Our soft washing technique safely removes mildew, algae, and stains from siding, roofing, and delicate surfaces without causing any damage.",
-    image: "/images/softwashing.jpeg",
+    image: "/images/softwash.jpeg",
   },
   {
     title: "Roof Cleaning",
