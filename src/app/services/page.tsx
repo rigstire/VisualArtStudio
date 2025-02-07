@@ -38,7 +38,13 @@ const services = [
     title: "Soft Washing Homes",
     description:
       "A gentle yet powerful cleaning solution for your home's exterior. Our soft washing technique safely removes mildew, algae, and stains from siding, roofing, and delicate surfaces without causing any damage.",
-    image: "/images/guttercleaningtwo.png",
+    image: "/images/softwashing.jpeg",
+  },
+  {
+    title: "Roof Cleaning",
+    description:
+      "Ensure your roof remains clean and free from algae, moss, and debris. Our roof cleaning services enhance longevity, curb appeal, and protection for your home’s structure.",
+    image: "/images/cleanroofdiff.jpeg", // Temporary image, replace later
   },
 ];
 
@@ -62,10 +68,7 @@ const Services = () => {
       >
         <Typography
           variant="h3"
-          sx={{
-            fontWeight: 700,
-            fontFamily: "'Poppins', sans-serif",
-          }}
+          sx={{ fontWeight: 700, fontFamily: "'Poppins', sans-serif" }}
         >
           Our Services
         </Typography>
@@ -91,15 +94,18 @@ const Services = () => {
           {services.map((service, index) => (
             <Grid item xs={12} md={6} key={index} sx={{ display: "flex" }}>
               <Card
-                elevation={8}
+                elevation={10}
                 sx={{
                   display: "flex",
                   flexDirection: "column",
                   flex: 1,
                   borderRadius: 3,
                   overflow: "hidden",
-                  transition: "transform 0.3s ease-in-out",
-                  "&:hover": { transform: "scale(1.03)" },
+                  transition: "transform 0.3s ease-in-out, box-shadow 0.3s",
+                  "&:hover": {
+                    transform: "scale(1.03)",
+                    boxShadow: "0px 8px 20px rgba(0,0,0,0.3)",
+                  },
                   bgcolor: "#2a5298",
                   color: "white",
                 }}
@@ -111,7 +117,7 @@ const Services = () => {
                     alt={service.title}
                     layout="fill"
                     objectFit="cover"
-                    quality={80}
+                    quality={90}
                     priority={index < 2}
                   />
                 </Box>
@@ -128,10 +134,7 @@ const Services = () => {
                 >
                   <Typography
                     variant="h4"
-                    sx={{
-                      fontWeight: 700,
-                      fontFamily: "'Poppins', sans-serif",
-                    }}
+                    sx={{ fontWeight: 700, fontFamily: "'Poppins', sans-serif" }}
                     gutterBottom
                   >
                     {service.title}
@@ -175,19 +178,6 @@ const Services = () => {
           ))}
         </Grid>
       </Container>
-
-      {/* Call to Action */}
-      <Box sx={{ py: 8, textAlign: "center", bgcolor: "#153e75", color: "white", mt: 8 }}>
-        <Typography
-          variant="h5"
-          sx={{
-            fontWeight: 600,
-            fontFamily: "'Poppins', sans-serif",
-          }}
-        >
-          Contact us today for a free consultation and get your property looking brand new!
-        </Typography>
-      </Box>
     </Box>
   );
 };
