@@ -20,12 +20,12 @@ const FactsPage = () => {
   };
 
   return (
-    <Box sx={{ bgcolor: "#F5F7FA", minHeight: "100vh", py: 8 }}>
+    <Box sx={{ bgcolor: "#F5F7FA", minHeight: "", py: 0}}>
       {/* Hero Section */}
       <Box
         sx={{
           position: "relative",
-          height: 400,
+          height: 600,
           background: "linear-gradient(45deg, #1e3c72, #2a5298)",
           color: "white",
           display: "flex",
@@ -87,12 +87,65 @@ const FactsPage = () => {
 
             </Card>
           </Grid>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
+              <Image 
+                src="/images/arampic.jpg" 
+                alt="Solar Panel Cleaning"
+                layout="intrinsic" 
+                width={800} 
+                height={500} 
+                quality={100}
+                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              />
+
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
+              <Image 
+                src="/images/catbowl.jpg" 
+                alt="Solar Panel Cleaning"
+                layout="intrinsic" 
+                width={800} 
+                height={500} 
+                quality={100}
+                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              />
+
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
+              <Image 
+                src="/images/dogepic.jpg" 
+                alt="Solar Panel Cleaning"
+                layout="intrinsic" 
+                width={800} 
+                height={500} 
+                quality={100}
+                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              />
+
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
+              <Image 
+                src="/images/lighthouse.jpg" 
+                alt="Solar Panel Cleaning"
+                layout="intrinsic" 
+                width={800} 
+                height={500} 
+                quality={100}
+                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              />
+
+            </Card>
+          </Grid>
 
 
-
-
-
-          FACT 6: Bird Proofing
+         
 
         </Grid>
       </Container>
