@@ -14,7 +14,7 @@ const events = [
     title: "Art Lesson",
     description:
       "Join us for an engaging art lesson that will inspire your creativity and refine your technique under expert guidance.",
-    image: "/images/contactimage.jpg",
+    image: "/images/dogepic.jpg",
   },
 ];
 
@@ -137,9 +137,9 @@ const Events = () => {
                   {/* Spacer to push the button to the bottom */}
                   <Box sx={{ flexGrow: 1 }} />
 
-                  {/* Learn More Button */}
+                  {/* Book Now Button */}
                   <Box sx={{ mt: 3 }}>
-                    <Link href="/events" passHref>
+                    <Link href="/contact" passHref>
                       <Button
                         variant="contained"
                         sx={{
@@ -151,7 +151,7 @@ const Events = () => {
                         }}
                         fullWidth
                       >
-                        Learn More
+                        Book Now
                       </Button>
                     </Link>
                   </Box>
@@ -166,3 +166,4 @@ const Events = () => {
 };
 
 export default Events;
+

@@ -1,3 +1,4 @@
+// featuresData.tsx
 import { Feature } from "@/types/feature";
 
 export const featuresData: Feature[] = [
@@ -99,40 +100,3 @@ export const featuresData: Feature[] = [
       "Engage in thoughtful discussions and critiques that deepen your appreciation for traditional art, inspiring your creative journey.",
   },
 ];
-
-export default function FeaturesSection() {
-  return (
-    <section className="relative w-full h-screen">
-      {/* Background Video */}
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        autoPlay
-        loop
-        muted
-      >
-        <source src="/video/art-studio.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-
-      {/* Overlay to darken the video for readability */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
-
-      {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center p-6">
-        <h2 className="text-4xl font-bold mb-6">Our Programs</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {featuresData.map((feature) => (
-            <div
-              key={feature.id}
-              className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg"
-            >
-              <div className="mb-4 text-primary">{feature.icon}</div>
-              <h3 className="text-xl font-semibold">{feature.title}</h3>
-              <p className="text-sm">{feature.paragraph}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}

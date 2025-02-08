@@ -48,7 +48,7 @@ const Hero = () => {
                   "
                 >
                   Welcome to Visual Arts Studio & Art School in Mission Viejo!
-                  Our classes, designed for students ages 6 to 25, start every day
+                  Our classes, designed for students ages 6 and up, start every day
                   at 9 AM. Unleash your creativity in a nurturing environment. For
                   inquiries and registration, call us at{" "}
                   <strong>805-390-1955</strong>.
