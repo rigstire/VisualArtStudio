@@ -5,29 +5,26 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "John D.",
-    designation: "",
+    name: "Dee Dee H.",
+    designation: "Parent",
     content:
-      "I’ve used several cleaning services for my home, but nothing compares to the amazing job this team did. Their solar panel cleaning service increased our energy efficiency right away! They also cleaned our windows and gutters, and everything looks spotless. Highly recommend for anyone looking to keep their home and solar panels in top condition!",
-    image: "/images/testimonials/auth-01.png",
+      "Marillyn is very dedicated to her students and I appreciate her knowledge. My children have been going to her studio for 10 years and, along with others, have become amazing artists in different mediums.",
     star: 5,
   },
   {
     id: 2,
-    name: "Edward S.",
-    designation: "",
+    name: "Terry B.",
+    designation: "Parent",
     content:
-      "The team at Coachella Solar Service was fantastic. They cleaned my gutters and performed soft washing on my home’s exterior, making it look brand new. I also had bird-proofing done around my solar panels to prevent any damage, and the results are great. Professional, quick, and affordable service!",
-    image: "/images/testimonials/auth-02.png",
+      "Miss Marilynn taught my daughter fine art skills for 4 years. She was instrumental in developing her into the artist she is today! Students are entered into art contests and many of her students place in these competitions, with their art displayed at venues like the Laguna Arts Festival. The classes are affordable, and she offers makeup classes when schedules conflict.",
     star: 5,
   },
   {
     id: 3,
-    name: "Mark T.",
-    designation: "",
+    name: "Marie W.",
+    designation: "Art Enthusiast",
     content:
-      "Excellent service from start to finish. I had both pressure washing and concrete cleaning done on my driveway and patio, and the transformation was incredible! I also took advantage of their solar panel cleaning service, which helped restore the efficiency of my panels. I’ll definitely be using them again for regular maintenance.",
-    image: "/images/testimonials/auth-03.png",
+      "Miss Maryland is an excellent art instructor! She gives each student individual attention and tailors instruction to their skill level based on practical theory and aptitude. I highly recommend her.",
     star: 5,
   },
 ];
@@ -37,14 +34,17 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Customers Say"
-          paragraph="Our clients love how our expert solar panel cleaning services boost their system's efficiency and extend the life of their solar panels. Here's what they have to say!"
+          title="What Our Students & Parents Say"
+          paragraph="Our art studio has transformed the lives of many aspiring artists. Here’s what students and parents have to say about our traditional art classes."
           center
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+            <SingleTestimonial
+              key={testimonial.id}
+              testimonial={testimonial}
+            />
           ))}
         </div>
       </div>
@@ -85,8 +85,8 @@ const Testimonials = () => {
               y2="459.865"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#D35400" />
+              <stop offset="1" stopColor="#D35400" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_83:2"
@@ -96,8 +96,8 @@ const Testimonials = () => {
               y2="675.565"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#D35400" />
+              <stop offset="1" stopColor="#D35400" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -137,8 +137,8 @@ const Testimonials = () => {
               y2="8.15715"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#D35400" stopOpacity="0" />
+              <stop offset="1" stopColor="#D35400" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_72:302"
@@ -148,8 +148,8 @@ const Testimonials = () => {
               y2="-2.84285"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#D35400" stopOpacity="0" />
+              <stop offset="1" stopColor="#D35400" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_72:302"
@@ -159,8 +159,8 @@ const Testimonials = () => {
               y2="19.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#D35400" stopOpacity="0" />
+              <stop offset="1" stopColor="#D35400" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_72:302"
@@ -170,8 +170,8 @@ const Testimonials = () => {
               y2="31.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#D35400" stopOpacity="0" />
+              <stop offset="1" stopColor="#D35400" />
             </linearGradient>
           </defs>
         </svg>

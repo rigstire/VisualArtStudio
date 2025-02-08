@@ -3,65 +3,69 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-<section
-  id="home"
-  className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
->
-  <div className="container">
-    <div className="-mx-4 flex flex-wrap">
-      <div className="w-full px-4">
-        <div className="mx-auto max-w-[800px] text-center">
-          <h1
-            className="
-              mb-5 
-              text-3xl 
-              sm:text-4xl 
-              md:text-5xl 
-              font-bold 
-              tracking-tight 
-              leading-tight 
-              text-transparent 
-              bg-clip-text 
-              bg-gradient-to-r 
-              from-blue-500 
-              to-purple-500 
-              drop-shadow-lg
-              animate-fadeIn
-              font-serif
-            "
-          >
-            Coachella Solar Service
-          </h1>
-          <p
-            className="
-              mb-12 
-              text-base 
-              sm:text-lg 
-              md:text-xl 
-              text-gray-700 
-              dark:text-gray-300 
-              tracking-wide 
-              leading-relaxed 
-              drop-shadow-sm
-              animate-slideIn
-              font-sans
-            "
-          >
-            Coachella Solar Services offers expert solar panel cleaning and maintenance to maximize efficiency and savings. Keep your solar investment shining with our professional, eco-friendly solutions!
-          </p>
-          <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-            <Link
-              href="contact/"
-              className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-            >
-                    🔥 Email
+      <section
+        id="home"
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+      >
+        <div className="container">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4">
+              <div className="mx-auto max-w-[800px] text-center">
+                <h1
+                  className="
+                    mb-5 
+                    text-3xl 
+                    sm:text-4xl 
+                    md:text-5xl 
+                    font-bold 
+                    tracking-tight 
+                    leading-tight 
+                    text-transparent 
+                    bg-clip-text 
+                    bg-gradient-to-r 
+                    from-blue-500 
+                    to-purple-500 
+                    drop-shadow-lg
+                    animate-fadeIn
+                    font-serif
+                  "
+                >
+                  Visual Arts Studio & Art School
+                </h1>
+                <p
+                  className="
+                    mb-12 
+                    text-base 
+                    sm:text-lg 
+                    md:text-xl 
+                    text-gray-700 
+                    dark:text-gray-300 
+                    tracking-wide 
+                    leading-relaxed 
+                    drop-shadow-sm
+                    animate-slideIn
+                    font-sans
+                  "
+                >
+                  Welcome to Visual Arts Studio & Art School in Mission Viejo!
+                  Our classes, designed for students ages 6 to 25, start every day
+                  at 9 AM. Unleash your creativity in a nurturing environment. For
+                  inquiries and registration, call us at{" "}
+                  <strong>805-390-1955</strong>.
+                </p>
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  <Link
+                    href="/contact/"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    Contact Us
                   </Link>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* Background SVGs */}
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
@@ -70,12 +74,7 @@ const Hero = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle
-              cx="277"
-              cy="63"
-              r="225"
-              fill="url(#paint0_linear_25:217)"
-            />
+            <circle cx="277" cy="63" r="225" fill="url(#paint0_linear_25:217)" />
             <circle
               cx="17.9997"
               cy="182"
