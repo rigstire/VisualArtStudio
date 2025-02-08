@@ -32,27 +32,19 @@ const ContactPage = () => {
   };
 
   return (
-    <Box sx={{ bgcolor: "#0A192F", minHeight: "100vh", color: "white", display: "flex", flexDirection: "column" }}>
+    <Box sx={{ bgcolor: "#0A192F", minHeight: "200vh", color: "white", display: "flex", flexDirection: "column",mb: 4 }}>
       {/* Navigation Bar */}
-      <AppBar position="static" sx={{ bgcolor: "#112D4E" }}>
-        <Toolbar>
-          <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 700 }}>
-            Coachella Solar Services
-          </Typography>
-        </Toolbar>
-      </AppBar>
 
       {/* Contact Section */}
-      <Container maxWidth="lg" sx={{ mt: 6, pb: 8 }}>
+      <Container maxWidth="lg" sx={{ mt: 12, pb: 8 }}>
       <Grid container spacing={6} alignItems="center">
   {/* Left Side: Text + Form */}
-  <Grid item xs={12} md={6}>
-    <Typography variant="h3" fontWeight={700} sx={{ mt: 6 }} gutterBottom>
+  <Grid item xs={12} md={6} sx={{ mt: 6 }}>
+    <Typography variant="h3" fontWeight={700} gutterBottom sx={{ mt: 15}}>
       Contact Us
     </Typography>
     <Typography variant="h6" sx={{ opacity: 0.8, mb: 4, lineHeight: 1.5 }}>
-      Get in touch with our experts for premium solar and exterior cleaning services. We’re committed to delivering
-      high-quality service with customer satisfaction at the forefront.
+    Bring your vision to life with our expert artists. We’re dedicated to delivering stunning, high-quality artwork with creativity and client satisfaction at the heart of everything we do.
     </Typography>
 
             {/* Contact Info */}
@@ -61,13 +53,13 @@ const ContactPage = () => {
                 Phone:
               </Typography>
               <Typography variant="body1" sx={{ opacity: 0.8 }}>
-                +1 (909) 583-4252
+                (949) 951-5971
               </Typography>
               <Typography variant="h6" sx={{ fontWeight: 600, mt: 2, mb: 1 }}>
                 Email:
               </Typography>
               <Typography variant="body1" sx={{ opacity: 0.8 }}>
-                solarmaintenancepro27@gmail.com
+              visualartsmurals@cox.net
               </Typography>
             </Box>
 
@@ -145,7 +137,7 @@ const ContactPage = () => {
           </Grid>
 
           {/* Right Side: Image with Proper Sizing */}
-          <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "center" }}>
+          <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "center", mt: 6 }}>
             <Box
               sx={{
                 position: "relative",
@@ -158,7 +150,7 @@ const ContactPage = () => {
               }}
             >
               <Image
-                src="/images/pressurewashing.jpeg"
+                src="/images/contactimage.jpg"
                 alt="Pressure Washing Service"
                 layout="fill"
                 objectFit="cover"

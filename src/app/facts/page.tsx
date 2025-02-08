@@ -37,10 +37,10 @@ const FactsPage = () => {
         }}
       >
         <Typography variant="h3" fontWeight={700} gutterBottom>
-          The Importance of Cleaning Services
+          Our Portfolio
         </Typography>
         <Typography variant="h6" sx={{ maxWidth: 750, opacity: 0.9 }}>
-          Discover how proper maintenance and cleaning services can improve the longevity and efficiency of your home and property.
+        Explore our stunning portfolio and bring your vision to life with captivating visuals that inspire!
         </Typography>
       </Box>
 
@@ -51,7 +51,7 @@ const FactsPage = () => {
           <Grid item xs={12} md={6}>
             <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
               <Image 
-                src="/images/solarcleaning.jpeg" 
+                src="/images/lionpic.jpg" 
                 alt="Dirty vs Clean Solar Panels"
                 layout="intrinsic" 
                 width={800} 
@@ -59,7 +59,7 @@ const FactsPage = () => {
                 quality={100}
                 style={{ width: "100%", height: "auto", objectFit: "cover" }}
               />
-              <CardContent>
+              {/* <CardContent>
                 <Typography variant="h5" fontWeight={700} gutterBottom>
                   The Power Difference: Dirty vs. Clean Solar Panels
                 </Typography>
@@ -69,15 +69,14 @@ const FactsPage = () => {
                   remarkable 26% increase in energy efficiency! This experiment underscores the importance of cleaning your panels to boost solar energy
                   production. Watch the full comparison in the video below.
                 </Typography>
-              </CardContent>
+              </CardContent> */}
             </Card>
           </Grid>
 
-          {/* FACT 2: The Need for Regular Solar Panel Cleaning */}
           <Grid item xs={12} md={6}>
             <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
               <Image 
-                src="/images/supdadupawash.jpg" 
+                src="/images/fruitspic.jpg" 
                 alt="Solar Panel Cleaning"
                 layout="intrinsic" 
                 width={800} 
@@ -85,127 +84,26 @@ const FactsPage = () => {
                 quality={100}
                 style={{ width: "100%", height: "auto", objectFit: "cover" }}
               />
-              <CardContent>
-                <Typography variant="h5" fontWeight={700} gutterBottom>
-                  The Need for Regular Solar Panel Cleaning
-                </Typography>
-                <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  Solar panels are constantly exposed to environmental elements like dust, pollen, bird droppings, algae, and pollutants—all of which diminish their efficiency over time.
-                  Regular cleaning not only restores optimum performance but also prevents the buildup of corrosive deposits that can damage panel surfaces.
-                  Routine maintenance helps ensure maximum energy output, extends the life of your solar panels, and allows early detection of any potential issues.
-                </Typography>
-              </CardContent>
+
             </Card>
           </Grid>
 
-          {/* FACT 3: Roof Cleaning */}
-          <Grid item xs={12} md={6}>
-            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
-              <Image 
-                src="/images/cleanroofdiff.jpeg" 
-                alt="Roof Cleaning"
-                layout="intrinsic" 
-                width={800} 
-                height={500} 
-                quality={100}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-              <CardContent>
-                <Typography variant="h5" fontWeight={700} gutterBottom>
-                  The Importance of Roof Cleaning
-                </Typography>
-                <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  Roofs accumulate moss, algae, and dirt, which can lead to decay and leaks over time. Regular cleaning not only protects the structural integrity of your roof by removing harmful buildup, but it also enhances your home's overall curb appeal.
-                  Routine cleaning can reveal early signs of damage, enabling timely repairs that extend your roof's lifespan and help avoid costly renovations.
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
 
-          {/* FACT 4: Gutter Cleaning */}
-          <Grid item xs={12} md={6}>
-            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
-              <Image 
-                src="/images/softwash.jpeg" 
-                alt="Gutter Cleaning"
-                layout="intrinsic" 
-                width={800} 
-                height={500} 
-                quality={100}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-              <CardContent>
-                <Typography variant="h5" fontWeight={700} gutterBottom>
-                  Why Gutter Cleaning is Essential
-                </Typography>
-                <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  Clogged gutters can lead to water damage, foundation issues, and even pest infestations. Keeping your gutters clean ensures proper water drainage,
-                  reduces the risk of mold and structural damage, and prevents debris build-up that can attract unwanted critters.
-                  Regular maintenance not only protects your home but also preserves your landscaping from water overflow and erosion.
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
 
-          {/* FACT 5: Pressure Washing */}
-          <Grid item xs={12} md={6}>
-            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
-              <Image 
-                src="/images/pressurewashing.jpeg" 
-                alt="Pressure Washing"
-                layout="intrinsic" 
-                width={800} 
-                height={500} 
-                quality={100}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-              <CardContent>
-                <Typography variant="h5" fontWeight={700} gutterBottom>
-                  Revitalize Your Property with Pressure Washing
-                </Typography>
-                <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  Our pressure washing service is designed to remove years of accumulated dirt, grime, mold, and algae from exterior surfaces.
-                  Beyond dramatically enhancing curb appeal, pressure washing protects surfaces from further deterioration by eliminating hazardous contaminants and preventing slip hazards.
-                  This service is an investment in both the aesthetics and long-term maintenance of your property.
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
 
-          {/* FACT 6: Bird Proofing */}
-          <Grid item xs={12} md={6}>
-            <Card sx={{ borderRadius: 3, overflow: "hidden", boxShadow: 4 }}>
-              <Image 
-                src="/images/birdproof.webp" 
-                alt="Bird Proofing"
-                layout="intrinsic" 
-                width={800} 
-                height={500} 
-                quality={100}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-              <CardContent>
-                <Typography variant="h5" fontWeight={700} gutterBottom>
-                  Effective Bird Proofing for a Safer Home
-                </Typography>
-                <Typography variant="body1" sx={{ opacity: 0.9, lineHeight: 1.8 }}>
-                  Effective bird proofing not only stops birds from nesting and leaving unsightly droppings, but it also protects your property from structural damage and corrosion.
-                  Our humane, environmentally friendly solutions deter birds without harm, reducing maintenance costs and ensuring a cleaner, healthier living environment.
-                  This proactive measure helps safeguard your home’s exterior and enhances its longevity.
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
+
+          FACT 6: Bird Proofing
+
         </Grid>
       </Container>
 
-      {/* Call to Action */}
+
       <Box sx={{ py: 8, textAlign: "center", bgcolor: "#153e75", color: "#FFD700", mt: 8 }}>
         <Typography variant="h5" fontWeight={600}>
-          Maximize Your Home’s Cleanliness & Longevity
+        Elevate Your Space with Stunning Visual Art
         </Typography>
         <Typography variant="h6" sx={{ mt: 1, opacity: 0.9 }}>
-          Protect your property from damage and enhance its appearance with our expert cleaning services. Contact us today!
+        Transform your environment with captivating artwork that inspires and enhances any space. Explore our portfolio and bring creativity to life today!
         </Typography>
         <Button
           variant="contained"
