@@ -12,8 +12,7 @@ const Features = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="/images/video/washingvid.mp4" type="video/mp4" />
-
+        <source src="/video/art-studio.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -23,7 +22,7 @@ const Features = () => {
       {/* Features Content */}
       <div className="relative z-20 max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">
-          Our Cleaning Services
+          Our Art Programs
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {featuresData.map((feature) => (

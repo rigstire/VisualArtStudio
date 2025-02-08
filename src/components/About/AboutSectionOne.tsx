@@ -8,7 +8,7 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
+  const List = ({ text }: { text: string }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
@@ -24,47 +24,28 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Top Solar Cleaning Experts"
-                paragraph="Coachella Solar Service provides professional solar panel cleaning and maintenance to ensure optimal performance and efficiency. Our expert solutions help extend the lifespan of your solar system, keeping it running at its best year-round"
+                title="Celebrated Traditional Art Educator"
+                paragraph="With over 40 years of experience, our esteemed art instructor brings the beauty of classic art to life. Specializing in traditional painting, drawing, and sculpture, she nurtures creativity and craftsmanship in every student."
                 mb="44px"
               />
 
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
+              <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Expert Solar Panel Cleaning" />
-                    <List text="Boost Energy Efficiency" />
-                    <List text="Extend Panel Lifespan" />
+                    <List text="Expert in Traditional Painting" />
+                    <List text="Master of Classical Drawing" />
+                    <List text="Skilled in Sculpture Techniques" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Eco-Friendly Solutions" />
-                    <List text="Affordable Pricing" />
-                    <List text="Reliable, Local Service" />
+                    <List text="Inspiring Mixed Media Creations" />
+                    <List text="Personalized One-on-One Guidance" />
+                    <List text="Fostering Timeless Creativity" />
                   </div>
                 </div>
               </div>
             </div>
-
-            {/* <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
-              </div>
-            </div> */}
+            {/* Image section removed as per requirements */}
           </div>
         </div>
       </div>
@@ -73,3 +54,4 @@ const AboutSectionOne = () => {
 };
 
 export default AboutSectionOne;
+

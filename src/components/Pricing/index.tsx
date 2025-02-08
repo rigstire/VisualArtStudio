@@ -1,91 +1,39 @@
 "use client";
-import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
 const Pricing = () => {
-  // const [isMonthly, setIsMonthly] = useState(true);
-
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="We offer clear and competitive pricing for all our services, ensuring you get the best value without hidden fees."
+          title="Affordable Tuition Options"
+          paragraph="Each traditional art class is just $25. Experience top-notch instruction in a creative environment where art comes to life."
           center
           width="665px"
         />
 
         <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
-            {/* <span
-              onClick={() => setIsMonthly(true)}
-              className={`${
-                isMonthly
-                  ? "pointer-events-none text-primary"
-                  : "text-dark dark:text-white"
-              } mr-4 cursor-pointer text-base font-semibold`}
-            >
-              Monthly
-            </span> */}
-            {/* <div
-              onClick={() => setIsMonthly(!isMonthly)}
-              className="flex cursor-pointer items-center"
-            >
-              <div className="relative">
-                <div className="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner"></div>
-                <div
-                  className={`${
-                    isMonthly ? "" : "translate-x-full"
-                  } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
-                >
-                  <span className="active h-4 w-4 rounded-full bg-white"></span>
-                </div>
-              </div>
-            </div> */}
-            {/* <span
-              onClick={() => setIsMonthly(false)}
-              className={`${
-                isMonthly
-                  ? "text-dark dark:text-white"
-                  : "pointer-events-none text-primary"
-              } ml-4 cursor-pointer text-base font-semibold`}
-            >
-              Yearly
-            </span> */}
+            {/* Pricing toggle removed */}
           </div>
         </div>
 
         <div className="flex flex-wrap justify-center gap-8">
-
           <PricingBox
-            packageName="Flat"
-            price={"70"}
+            packageName="Single Class"
+            price={"25"}
             duration={""}
-            subtitle="For 17 Panels or Less"
+            subtitle="Per class fee"
           >
-           <OfferList text="Boost Efficiency" status="active" />
-            <OfferList text="Maximize Output" status="active" />
-            <OfferList text="Eco-Friendly Service" status="active" />
-            <OfferList text="Prevent Damage" status="active" />
-            <OfferList text="Increase Longevity" status="active" />
-            <OfferList text="Professional Cleaning" status="inactive" />
+            <OfferList text="Expert Traditional Instruction" status="active" />
+            <OfferList text="Small Class Sizes" status="active" />
+            <OfferList text="Hands-on Learning Experience" status="active" />
+            <OfferList text="Art Supplies Provided" status="active" />
+            <OfferList text="Flexible Scheduling" status="active" />
+            <OfferList text="Personalized Feedback" status="active" />
           </PricingBox>
-          <PricingBox
-            packageName="Per panel"
-            price={"4"}
-            duration={""}
-            subtitle="For 17 Panels or More"
-          >
-            <OfferList text="Boost Efficiency" status="active" />
-            <OfferList text="Maximize Output" status="active" />
-            <OfferList text="Eco-Friendly Service" status="active" />
-            <OfferList text="Prevent Damage" status="active" />
-            <OfferList text="Increase Longevity" status="active" />
-            <OfferList text="Professional Cleaning" status="inactive" />
-          </PricingBox>
-          
         </div>
       </div>
 
@@ -126,8 +74,8 @@ const Pricing = () => {
               y2="1131.65"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#D35400" />
+              <stop offset="1" stopColor="#D35400" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_93:235"
@@ -137,8 +85,8 @@ const Pricing = () => {
               y2="915.952"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#D35400" />
+              <stop offset="1" stopColor="#D35400" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
